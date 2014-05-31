@@ -22,11 +22,7 @@ public class BlockListener implements Listener {
         Material material = event.getBlock().getType();
         String world =  player.getWorld().getName();
         String worlds = null;
-        if( instance.getConfig().isSet("Hub World")) {
-            worlds = instance.getConfig().getString("Hub World");
-        }else {
-            worlds = instance.getConfig().getString("Hub Worlds");
-        }
+        worlds = instance.getConfig().getString("Protected Worlds");
         List<String> worldList = Arrays.asList(worlds.split(","));
         if(worldList.contains(world)) {
             if (!player.hasPermission("hubplus.protection.bypass")) {
@@ -43,11 +39,7 @@ public class BlockListener implements Listener {
         Material material = event.getBlock().getType();
         String world =  player.getWorld().getName();
         String worlds = null;
-        if( instance.getConfig().isSet("Hub World")) {
-            worlds = instance.getConfig().getString("Hub World");
-        }else {
-            worlds = instance.getConfig().getString("Hub Worlds");
-        }
+        worlds = instance.getConfig().getString("Protected Worlds");
         List<String> worldList = Arrays.asList(worlds.split(","));
         if(worldList.contains(world)) {
             if (!player.hasPermission("hubplus.protection.bypass")) {

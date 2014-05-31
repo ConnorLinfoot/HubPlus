@@ -57,7 +57,7 @@ public class HubPlus extends JavaPlugin implements Listener {
 
         ConsoleCommandSender console = server.getConsoleSender();
         console.sendMessage(ChatColor.GREEN + "============= HUB PLUS =============");
-        console.sendMessage(ChatColor.GREEN + "=========== VERSION: 0.3 ===========");
+        console.sendMessage(ChatColor.GREEN + "========== VERSION: 0.3.1 ==========");
         console.sendMessage(ChatColor.GREEN + "======== BY CONNOR LINFOOT! ========");
         /*Updater updater = new Updater(this, 79988, this.getFile(), UpdateType.NO_DOWNLOAD, true);
         if (updater.getResult() == UpdateResult.UPDATE_AVAILABLE) {

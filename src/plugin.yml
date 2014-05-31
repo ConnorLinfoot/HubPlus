@@ -1,7 +1,7 @@
 name: Hub Plus
 description: Hub
 main: com.connorlinfoot.hubplus.HubPlus
-version: 0.3
+version: 0.3.1
 commands:
   hubplus:
     description: HubPlus Main Command

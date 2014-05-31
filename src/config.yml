@@ -5,7 +5,8 @@
 # http://dev.bukkit.org/bukkit-plugins/hub-plus/
 Config Version: 2
 
-Hub Worlds: world
+Protected Worlds: world
+Hub World: world
 Clear Inventory On Join: false
 Clock Cooldown: 3
 On Join Broadcast: Welcome <playername> to the server!
