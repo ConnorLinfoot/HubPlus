@@ -1,0 +1,55 @@
+#                           Hub Plus
+#                          Version 0.3
+#                       By Connor Linfoot
+# Please read the documentation available at the link below!
+# http://dev.bukkit.org/bukkit-plugins/hub-plus/
+Config Version: 2
+
+Hub Worlds: world
+Clear Inventory On Join: false
+Clock Cooldown: 3
+On Join Broadcast: Welcome <playername> to the server!
+On Quit Broadcast: <playername> left the server!
+Hub On Join: true
+Send Stats: true
+Broadcast Prefix: "[HubPlus]"
+Custom Hub Command: lobby
+
+Blood Enabled: false
+Blood Worlds: all
+Blood Entitys:
+  All: true
+  Bat: false
+  Blaze: false
+  Cave Spider: false
+  Chicken: false
+  Cow: false
+  Creeper: false
+  Enderman: false
+  Ghast: false
+  Giant: false
+  Horse: false
+  Iron Golem: false
+  Magma Cube: false
+  Mushroom Cow: false
+  Ocelot: false
+  Pig: false
+  Player: false
+  Sheep: false
+  Silverfish: false
+  Skeleton: false
+  Slime: false
+  Snowman: false
+  Spider: false
+  Squid: false
+  Villager: false
+  Witch: false
+  Wither: false
+  Wolf: false
+  Zombie: false
+  Zombie Pigman: false
+
+DO NOT EDIT: DO NOT EDIT BELOW THIS LINE!
+COMMENT1: Below is config for compass! Ignore this its for the future!
+Compass Rows: 4
+PlayersHiding:

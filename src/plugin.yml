@@ -1,0 +1,47 @@
+name: Hub Plus
+description: Hub
+main: com.connorlinfoot.hubplus.HubPlus
+version: 0.3
+commands:
+  hubplus:
+    description: HubPlus Main Command
+  hp:
+    description: HubPlus Main Command
+  world:
+    description: Get the world name
+  hub:
+    description: Go to hub
+  broadcast:
+    description: Send out a broadcast to the server
+  bc:
+    description: Send out a broadcast to the server
+  fw:
+    description: Firework
+permissions:
+  hubplus.hub:
+    description: Allow users to use /hub command
+    default: true
+  hubplus.admin:
+    description: Allow users to use /hubplus and other future admin commands
+    default: op
+  hubplus.protection.bypass:
+    description: Bypass block protection in hub world
+    default: op
+  hubplus.inv.bypass:
+    description: Bypass any inv limits, such as moving items or dropping in hub world
+    default: op
+  hubplus.jointp.bypass:
+    description: Bypass the TP to hub upon joining the server
+    default: op
+  hubplus.broadcast:
+    description: Required to use /broadcast or /bc command
+    default: op
+  hubplus.world:
+    description: Required to use /world command
+    default: op
+  hubplus.sign.create:
+    description: Required to be able to create a Hub sign
+    default: op
+  hubplus.sign.use:
+    description: Required to be able to use a hub sign
+    default: true
